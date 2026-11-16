@@ -1,0 +1,9 @@
+body {font-family:Arial, sans-serif;background-color:#f4f4f4;margin:0;padding:20px;text-align:center}
+h1 {color: #4287f5}
+.burat {display:grid;grid-template-columns:repeat(3, 1fr);gap:20px;max-width:1000px;margin:auto}
+.pekpek {background-color:white;padding:10px;border-radius:10px;}
+.pekpek img {width:100%;height:200px;object-fit:cover;border-radius:8px}
+.pekpek h3 {color: #f542da}
+
+@media (max-width: 768px) {.burat{grid-template-columns: repeat(2, 1fr)}}
+@media (max-width: 480px) {.burat{grid-template-columns: 1fr}}
